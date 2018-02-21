@@ -1,0 +1,25 @@
+{
+  "name": "rocoto-web",
+  "version": "1.0.0",
+  "description": "Web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luisbch9/rocoto-web.git"
+  },
+  "keywords": [
+    "web"
+  ],
+  "author": "luisbch9",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luisbch9/rocoto-web/issues"
+  },
+  "homepage": "https://github.com/luisbch9/rocoto-web#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
