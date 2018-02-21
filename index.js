@@ -8,6 +8,6 @@ app.get('/',function(req,res){
   //It will find and locate index.html from View or Scripts
 });
 
-app.listen(80, function () {
-  console.log('Example app listening on port 80!');
+app.listen(process.env.PORT || 8080, function () {
+  console.log('Example app listening on port 8080!');
 });
