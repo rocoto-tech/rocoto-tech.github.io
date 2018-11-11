@@ -1,7 +1,7 @@
 var express = require('express');
 var app = express();
 
-var email 	= require("emailjs");
+// var email 	= require("emailjs");
 
 var bodyParser = require('body-parser');
 
@@ -16,11 +16,12 @@ app.get('/',function(req,res){
   //It will find and locate index.html from View or Scripts
 });
 
+/*
 app.post('/send',function(req,res){
 
      var server 	= email.server.connect({
          user:    "rocoto.tech@gmail.com",
-         password:"no_tocar",
+         password:"********",
          host:    "smtp.gmail.com",
          ssl:     true
       });
@@ -39,6 +40,7 @@ app.post('/send',function(req,res){
 
       res.json({exito:true});
 });
+*/
 
 app.listen(process.env.PORT || 8080, function () {
   console.log('Example app listening on port 8080!');
