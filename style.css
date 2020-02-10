@@ -61,9 +61,15 @@ h6 {
     line-height: 1.2;
 }
 
+
+.espacio{
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
 .section_padding_100 {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .section_padding_100_50 {
@@ -1294,9 +1300,7 @@ p {
     border-right: 0 solid #ddd;
 }
 
-.footer-social-icon {
-    margin-bottom: 30px;
-}
+
 
 .footer-menu {
     margin-bottom: 15px;
