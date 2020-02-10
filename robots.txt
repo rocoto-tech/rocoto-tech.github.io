@@ -1,0 +1,8 @@
+# Grupo 1
+User-agent: *
+Disallow: /legacy/
+Allow: /
+
+# Grupo 2
+# User-agent: *
+# Allow: /
