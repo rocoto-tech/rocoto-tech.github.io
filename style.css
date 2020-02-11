@@ -1300,3 +1300,16 @@ p {
         font-weight: 700;
     }
 }
+
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 834px) 
+  and (max-device-width: 1112px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .imga{
+        display: none;
+        visibility: hidden;
+    }
+
+}
