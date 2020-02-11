@@ -14,6 +14,8 @@
 :: 1.0 Base CSS Start
 -------------------------- */
 
+
+
 * {
     margin: 0;
     padding: 0;
@@ -1284,4 +1286,17 @@ p {
 
 .copyright-text > p {
     margin-bottom: 0;
+}
+
+
+@media (max-width:600px){
+    .imga{
+        /* display: none; */
+        visibility: hidden;
+    }
+    .footer-text > h2 {
+        color: #5b32b4;
+        font-size: 55px;
+        font-weight: 700;
+    }
 }
